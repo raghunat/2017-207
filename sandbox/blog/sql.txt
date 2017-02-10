@@ -1,0 +1,10 @@
+SELECT * FROM timbits;
+SELECT * FROM timbits LIMIT 1;
+SELECT name FROM timbits LIMIT 5;
+SELECT name, baked FROM timbits LIMIT 5;
+
+INSERT INTO timbits (name, jelly) VALUES ('salt', 0);
+
+UPDATE timbits SET name='jelly';
+
+DELETE FROM timbits WHERE name = 'salt';
