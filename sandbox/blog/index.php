@@ -20,7 +20,7 @@ function getPostsFromDB($count = 1) {
 }
 
 
-
+// Example SQL = SELECT title, img, content FROM Posts LIMIT 10
 $blogPosts = getPostsFromDB(10);
  ?>
 
